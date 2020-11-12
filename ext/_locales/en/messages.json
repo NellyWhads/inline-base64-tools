@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Base64 Tools",
+    "description": "Name of extension"
+  },
+  "decode": {
+    "message": "Decode",
+    "description": "Decode command description"
+  },
+  "encode": {
+    "message": "Encode",
+    "description": "Encode command description"
+  },
+  "copyToClipboard": {
+    "message": "Copy result to clipboard",
+    "description": "Copy to clipboard toggle description"
+  },
+  "decodeOnSelect": {
+    "message": "Decode inline on selection",
+    "description": "Automatic decode toggle description"
+  }
+}

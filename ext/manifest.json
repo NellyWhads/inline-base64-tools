@@ -1,0 +1,41 @@
+{
+  "name": "Inline Base64 Tools",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Basic extension to encode/decode Base64 strings inline.",
+  "homepage_url": "https://github.com/NellyWhadsDev/inline-base64-tools",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/helpers.js",
+      "src/bg/menu.js",
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "<all_urls>",
+    "clipboardWrite",
+    "contextMenus",
+    "tabs",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/jquery/jquery.min.js",
+        "src/helpers.js",
+        "src/inject/inject.js"
+      ],
+      "all_frames": true
+    }
+  ]
+}
