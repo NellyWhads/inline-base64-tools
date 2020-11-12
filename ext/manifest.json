@@ -1,6 +1,6 @@
 {
   "name": "Inline Base64 Tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Basic extension to encode/decode Base64 strings inline.",
   "homepage_url": "https://github.com/NellyWhadsDev/inline-base64-tools",
@@ -19,7 +19,6 @@
     "persistent": false
   },
   "permissions": [
-    "<all_urls>",
     "clipboardWrite",
     "contextMenus",
     "tabs",
