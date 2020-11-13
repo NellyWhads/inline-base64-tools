@@ -25,6 +25,8 @@ function modifySelection(range, str) {
 		node.appendChild(linkText);
 		node.href = str;
 		node.style.textDecoration = "underline"
+		// Open links on new tab
+		node.target = "_blank"
 	}
 	else {
 		// Create text node
