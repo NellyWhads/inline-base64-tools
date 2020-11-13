@@ -18,5 +18,9 @@
   "decodeOnSelect": {
     "message": "Decode inline on selection",
     "description": "Automatic decode toggle description"
+  },
+  "openOnNewTab": {
+    "message": "Open link on new tab",
+    "description": "Toggle open link on new tab"
   }
 }
