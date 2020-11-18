@@ -12,21 +12,15 @@ A fairly simple. context menu based extension to encode/decode base64 strings.
 ## Screenshots
 ![Context Menu Screenshot](/Screenshots/ContextMenu.jpg)
 
-## How to install (until it's published)
-1. [Download the latest release](https://github.com/NellyWhadsDev/inline-base64-tools/releases)
-2. Unzip the file into a new directory
-3. Open Google Chrome
-4. Open `Settings` -> `Extensions`
-5. Enable developer mode
-6. Click `Load unpacked`
-7. Select the directory where you unzipped the release
-8. Profit(?)
+## How to install
+Visit the Chrome Webstore for the [latest published version](https://chrome.google.com/webstore/detail/inline-base64-tools/jhlgknlcbhlpnnkecmojfeidlbgdbkll?hl=en&authuser=0) of the extension. Google Chrome, Microsoft Edge, and Mozilla Firefox are all supported. The latest, unpacked version of the extension can also be downloaded from the Releases page.
 
 ## How to use
-1. Install the extension as above (currently awaiting publishing)
+1. Install the extension, as above
 2. You may need to refresh the target webpage
 2. Select text to encode/decode
 3. `Right click` -> `Inline Base64 Tools` -> `Encode`/`Decode`
+4. `Right click` -> `Inline Base64 Tools` -> Set preferences as you please
 
 ## Thanks/Shoutouts
 - [/u/3xbun](https://www.reddit.com/user/3xbun/) for the recursive decoding snippet
